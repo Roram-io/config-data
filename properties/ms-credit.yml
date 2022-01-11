@@ -1,6 +1,9 @@
 server:
   port: 8882
 spring:
+  data:
+    mongodb:
+      uri: "mongodb+srv://nttdata:Seguridad123456!@semana01.kwqqj.mongodb.net/Semana01"
   cloud:
     config:
       server:
