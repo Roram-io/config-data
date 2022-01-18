@@ -15,3 +15,8 @@ spring:
     user:
       name: admin
       password: nttdatacorazon
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/
