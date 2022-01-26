@@ -2,7 +2,7 @@ server:
   port: 8099
 eureka:
   instance:
-    hostname: 20.75.128.229
+    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
