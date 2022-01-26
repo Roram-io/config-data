@@ -17,6 +17,8 @@ spring:
       password: nttdatacorazon
 
 eureka:
+  instance:
+    preferIpAddress: true
   client:
     serviceUrl:
-      defaultZone: http://localhost:8099/eureka/
+      defaultZone: http://20.75.128.229:8099/eureka/
