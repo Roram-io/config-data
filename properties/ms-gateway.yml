@@ -35,3 +35,15 @@ spring:
           uri: lb://ms-card
           predicates:
             - Path=/api/v1/card/**
+        - id: ms-yanki
+          uri: lb://ms-yanki
+          predicates:
+            - Path=/api/v1/yanki/**
+        - id: ms-bootcoin
+          uri: lb://ms-bootcoin
+          predicates:
+            - Path=/api/v1/bootcoin/**
+        - id: ms-bootcointransaction
+          uri: lb://ms-bootcointransaction
+          predicates:
+            - Path=/api/v1/bootcointransaction/**

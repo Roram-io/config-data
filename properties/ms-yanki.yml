@@ -1,0 +1,22 @@
+server:
+  port: 8886
+spring:
+  data:
+    mongodb:
+      uri: "mongodb+srv://nttdata:Seguridad123456!@semana01.kwqqj.mongodb.net/Semana01"
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Roram-io/config-data
+          searchPaths: properties
+          default-label: development
+  security:
+    user:
+      name: admin
+      password: nttdatacorazon
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/
